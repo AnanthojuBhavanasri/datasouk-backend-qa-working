@@ -1,0 +1,312 @@
+{
+	"TableViewConfig": {
+		"Resources": {
+			"Term": {
+				"Signifier": {
+					"name": "FullName"
+				},
+				"DisplayName": {
+					"name": "DisplayName"
+				},
+				"Id": {
+					"name": "Id"
+				},
+				"ArticulationScore": {
+					"name": "ArticulationScore"
+				},
+				"RatingsCount": {
+					"name": "RatingsCount"
+				},
+				"AvgRating": {
+					"name": "AvgRating"
+				},
+				"CreatedOn": {
+					"name": "CreatedOn"
+				},
+				"LastModified": {
+					"name": "LastModifiedOn"
+				},
+				"lastModifiedBy": {
+					"name": "lastModifiedBy"
+				},
+				"Vocabulary": {
+					"Name": {
+						"name": "Domain_Name"
+					},
+					"Id": {
+						"name": "Domain_Id"
+					},
+					"Member": {
+						"name": {
+							"name": "responsibility"
+						},
+						"Id": {
+							"name": "memberId"
+						},
+						"User": {
+							"Id": {
+								"name": "userId"
+							},
+							"FirstName": {
+								"name": "firstName"
+							},
+							"LastName": {
+								"name": "lastName"
+							}
+						},
+						"Group": {
+							"Id": {
+								"name": "groupId"
+							},
+							"GroupName": {
+								"name": "groupName"
+							}
+						},
+						"Role": {
+							"Signifier": {
+								"name": "roleName"
+							}
+						}
+					},
+					"VocabularyType": {
+						"Signifier": {
+							"name": "Domain_Type"
+						},
+						"VocabularyType": {
+							"Signifier": {
+								"name": "Parent_Domain_Type"
+							}
+						}
+					},
+					"Community": {
+						"Name": {
+							"name": "Domain_Community_Name"
+						},
+						"Id": {
+							"name": "Domain_Community_Id"
+						}
+					}
+				},
+				"Status": {
+					"Signifier": {
+						"name": "Status_Name"
+					},
+					"Id": {
+						"name": "Status_Id"
+					}
+				},
+				"ConceptType": {
+					"Signifier": {
+						"name": "AssetType_Name"
+					},
+					"Id": {
+						"name": "AssetType_Id"
+					}
+				},
+				"User": {
+					"UserName": {
+						"name": "CreatedBy_UserName"
+					},
+					"FirstName": {
+						"name": "CreatedBy_FirstName"
+					},
+					"LastName": {
+						"name": "CreatedBy_LastName"
+					},
+					"Id": {
+						"name": "CreatedBy_Id"
+					}
+				}
+			}
+		},
+		"Columns": [
+			{
+				"Column": {
+					"fieldName": "FullName",
+					"label": "Full Name"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "DisplayName",
+					"label": "Name"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Id",
+					"label": "Asset Id"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "ArticulationScore",
+					"label": "ArticulationScore"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "RatingsCount",
+					"label": "RatingsCount"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "AvgRating",
+					"label": "AvgRating"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "CreatedOn",
+					"label": "CreatedOn"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "LastModifiedOn",
+					"label": "LastModified On"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "lastModifiedBy",
+					"label": "lastModified By"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "CreatedBy_UserName",
+					"label": "CreatedBy_UserName"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "CreatedBy_FirstName",
+					"label": "CreatedBy_FirstName"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "CreatedBy_LastName",
+					"label": "CreatedBy_LastName"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "CreatedBy_Id",
+					"label": "CreatedBy_Id"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Domain_Name",
+					"label": "Domain"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Domain_Id",
+					"label": "Domain Id"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Domain_Type",
+					"label": "Domain Type"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Parent_Domain_Type",
+					"label": "Parent Domain Type"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Domain_Community_Name",
+					"label": "Community"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Domain_Community_Id",
+					"label": "Community Id"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Status_Name",
+					"label": "Status"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "Status_Id",
+					"label": "Status Id"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "AssetType_Name",
+					"label": "Asset Type"
+				}
+			},
+			{
+				"Column": {
+					"fieldName": "AssetType_Id",
+					"label": "Asset Type Id"
+				}
+			},
+			{
+				"Group": {
+					"name": "Responsibility",
+					"Columns": [
+						{
+							"Column": {
+								"fieldName": "memberId",
+								"label": "memberId"
+							}
+						},
+						{
+							"Column": {
+								"fieldName": "userId",
+								"label": "userId"
+							}
+						},
+						{
+							"Column": {
+								"fieldName": "firstName",
+								"label": "firstName"
+							}
+						},
+						{
+							"Column": {
+								"fieldName": "lastName",
+								"label": "lastName"
+							}
+						},
+						{
+							"Column": {
+								"fieldName": "groupId",
+								"label": "groupId"
+							}
+						},
+						{
+							"Column": {
+								"fieldName": "groupName",
+								"label": "groupName"
+							}
+						},
+						{
+							"Column": {
+								"fieldName": "roleName",
+								"label": "roleName"
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

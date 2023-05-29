@@ -1,0 +1,134 @@
+{
+  "_key": "9a7df90e-430c-4461-a453-1da8e81f9cad",
+  "_id": "Nodes/9a7df90e-430c-4461-a453-1da8e81f9cad",
+  "_rev": "_fH8eCn2--A",
+  "identifier": "Datanomist > DataSouk > CTC_DataQuality > eff-dt must be mmddyy",
+  "displayName": "eff-dt must be mmddyy",
+  "community": {
+    "name": "DataSouk",
+    "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+    "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+  },
+  "type": {
+    "name": "Data Quality Rule",
+    "id": "00000000-0000-0000-0000-000000031205"
+  },
+  "createdOn": "1633320613835",
+  "createdByUserName": "Admin",
+  "responsibilities": [
+    {
+      "groupName": "",
+      "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+      "groupId": "",
+      "name": "Priya 003",
+      "roleName": " Api Developer ",
+      "userName": "Cons003",
+      "userId": "84201ef4-d824-4f83-af3e-ed10fb029829"
+    }
+  ],
+  "createdBy": "00000000-0000-0000-0000-000000900002",
+  "articulationScore": "5.0",
+  "domain": {
+    "name": "CTC_DataQuality",
+    "id": "0431c490-d8c3-4c67-98b2-574886a042e3",
+    "url": "http://datanomist.in:4400/domain/0431c490-d8c3-4c67-98b2-574886a042e3"
+  },
+  "name": "eff-dt must be mmddyy",
+  "ratingsCount": "0",
+  "createdByFullName": "Admin Istrator",
+  "avgRating": "0.0",
+  "attributes": [
+    {
+      "name": "Personally Identifiable Information",
+      "id": "51bc3627-d477-45a8-a732-529593ea34d1",
+      "value": "true"
+    },
+    {
+      "name": "Security Classification",
+      "id": "3dfbb3a4-4070-4440-9fe0-96c9642fcb77",
+      "value": "Restricted"
+    },
+    {
+      "name": "Frequency",
+      "id": "d3630b8d-23d8-471b-92fb-0a99faf08e91",
+      "value": "Semi-Annually"
+    },
+    {
+      "name": "Description",
+      "id": "86568b59-1377-4b5a-a4e0-2af23e39c372",
+      "value": "eff-dt must be mmddyy description"
+    },
+    {
+      "name": "Searchable",
+      "id": "97bddbe3-0fe8-4837-9825-da76f36d6c04",
+      "value": "false"
+    },
+    {
+      "name": "Certified",
+      "id": "4389d6e2-a8cb-4c41-b0ff-2bd552b45774",
+      "value": "true"
+    },
+    {
+      "name": "Shoppable",
+      "value": "false"
+    },
+    {
+      "name": "searchable",
+      "value": "false"
+    }
+  ],
+  "id": "9a7df90e-430c-4461-a453-1da8e81f9cad",
+  "relations": {
+    "sources": [],
+    "targets": [
+      {
+        "CoRole": "applies",
+        "typeId": "6ba10a9f-d403-4221-9bb4-7654e598b454",
+        "id": "be84c8d5-5e0d-4c5a-b371-3a926f9ee076",
+        "target": {
+          "displayName": "acct_line_cd",
+          "name": "acct_line_cd",
+          "id": "6dbd0dee-c2e9-4972-b35d-d16447478d83",
+          "type": "Column"
+        }
+      },
+      {
+        "CoRole": "executes",
+        "typeId": "00000000-0000-0000-0000-000000007016",
+        "id": "4510239a-4e92-4f94-ac13-4af47dbf8593",
+        "target": {
+          "displayName": "adr_dt",
+          "name": "adr_dt",
+          "id": "5e2401ca-6a88-40e2-9662-52c17e86e543",
+          "type": "Data Quality Metric"
+        }
+      },
+      {
+        "CoRole": "executes",
+        "typeId": "00000000-0000-0000-0000-000000007016",
+        "id": "5f1163f3-e2c3-4e3e-bc10-da204a3d012e",
+        "target": {
+          "displayName": "eff_dt must be mmddyy",
+          "name": "eff_dt must be mmddyy",
+          "id": "e7b44658-bb08-4ef7-9240-8e4d1e99d8af",
+          "type": "Data Quality Metric"
+        }
+      },
+      {
+        "CoRole": "executes",
+        "typeId": "00000000-0000-0000-0000-000000007016",
+        "id": "6d08fbab-6cb0-4943-99fe-ac4e4dd6dcc3",
+        "target": {
+          "displayName": "mnt_dt",
+          "name": "mnt_dt",
+          "id": "cd3a21d7-a7e0-43fe-986a-a1d3d3c49b8f",
+          "type": "Data Quality Metric"
+        }
+      }
+    ]
+  },
+  "status": {
+    "name": "Candidate",
+    "id": "00000000-0000-0000-0000-000000005008"
+  }
+}

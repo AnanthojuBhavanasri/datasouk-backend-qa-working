@@ -1,0 +1,41 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.1 https://maven.apache.org/xsd/assembly-2.1.1.xsd">   <!-- TODO: a jarjar format would be better -->
+    <id>jar-with-dependencies-and-exclude-classes</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <useProjectArtifact>false</useProjectArtifact>
+            <unpack>true</unpack>
+            <scope>runtime</scope>
+        </dependencySet>
+    </dependencySets>
+    <fileSets>
+        <fileSet>
+            <outputDirectory>/</outputDirectory>
+            <directory>${project.build.outputDirectory}</directory>
+            <!--Exclude Alation
+            <excludes>
+                <exclude>com/datasouk/controller/AlationController.class</exclude>
+                <exclude>com/datasouk/service/alation/*</exclude>
+            </excludes>-->
+            <!--Exclude Collibra
+            <excludes>
+                <exclude>com/datasouk/controller/CollibraController.class</exclude>
+                <exclude>com/datasouk/service/collibra/*</exclude>
+            </excludes>-->
+            <!--Exclude Ranger
+            <excludes>
+                <exclude>com/datasouk/controller/RangerPolicyController.class</exclude>
+                <exclude>com/datasouk/dto/ranger/*</exclude>
+                <exclude>com/datasouk/mapper/ranger/*</exclude>
+                <exclude>com/datasouk/mapper/policy/*</exclude>
+                <exclude>com/datasouk/service/ranger/*</exclude>
+                <exclude>com/datasouk/utils/ranger/*</exclude>
+            </excludes>-->
+        </fileSet>
+    </fileSets>
+</assembly>

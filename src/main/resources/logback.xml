@@ -1,0 +1,37 @@
+<configuration>
+
+  <property name="LOG_PATTERN" value="%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n" />
+  <property name="APP_LOG_ROOT" value="./logs"/>
+
+  <!--Enable if you want to see Console logs-->
+  <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${LOG_PATTERN}</pattern>
+    </encoder>
+  </appender>
+  <appender name="applicationDebugLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${APP_LOG_ROOT}/DatasoukBackend.log</file>
+    <encoder>
+      <pattern>${LOG_PATTERN}</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+      <fileNamePattern>${APP_LOG_ROOT}/DatasoukBackend-%i.log</fileNamePattern>
+      <minIndex>1</minIndex>
+      <maxIndex>10</maxIndex>
+    </rollingPolicy>
+    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      <maxFileSize>10MB</maxFileSize>
+    </triggeringPolicy>
+  </appender>
+
+  <springProfile name="dev">
+  <logger name="com.datasouk" level="INFO">
+    <appender-ref ref="applicationDebugLog" />
+  </logger>
+  </springProfile>
+  <!--Enable when you want to console logs-->
+  <root level="INFO">
+    <appender-ref ref="console" />
+  </root>
+
+</configuration>

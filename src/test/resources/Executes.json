@@ -1,0 +1,352 @@
+[
+  {
+    "_key": "cd3a21d7-a7e0-43fe-986a-a1d3d3c49b8f",
+    "_id": "Nodes/cd3a21d7-a7e0-43fe-986a-a1d3d3c49b8f",
+    "_rev": "_fH8eCku--B",
+    "identifier": "Datanomist > DataSouk > CTC_DataQuality > mnt_dt",
+    "displayName": "mnt_dt",
+    "community": {
+      "name": "DataSouk",
+      "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+      "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+    },
+    "type": {
+      "name": "Data Quality Metric",
+      "id": "00000000-0000-0000-0000-000000031107"
+    },
+    "createdOn": "1633610164975",
+    "createdByUserName": "Admin",
+    "responsibilities": [
+      {
+        "groupName": "",
+        "roleId": "9e83a9b7-5447-4998-a983-e5be93d8f0b1",
+        "groupId": "",
+        "name": "Chaitanya Nakka",
+        "roleName": " Architect ",
+        "userName": "chaitanya",
+        "userId": "97072043-3cec-487f-a667-2a477d9d0653"
+      },
+      {
+        "groupName": "",
+        "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+        "groupId": "",
+        "name": "Architect API",
+        "roleName": " Api Developer ",
+        "userName": "architect",
+        "userId": "70906ea3-96a4-4a9c-9b8b-948a1f6f7479"
+      }
+    ],
+    "createdBy": "00000000-0000-0000-0000-000000900002",
+    "articulationScore": "5.0",
+    "domain": {
+      "name": "CTC_DataQuality",
+      "id": "0431c490-d8c3-4c67-98b2-574886a042e3",
+      "url": "http://datanomist.in:4400/domain/0431c490-d8c3-4c67-98b2-574886a042e3"
+    },
+    "name": "mnt_dt",
+    "ratingsCount": "0",
+    "createdByFullName": "Admin Istrator",
+    "avgRating": "0.0",
+    "attributes": [
+      {
+        "name": "Personally Identifiable Information",
+        "id": "e61ee49d-b498-4126-aed9-6e0250f9a6ae",
+        "value": "true"
+      },
+      {
+        "name": "Security Classification",
+        "id": "672fc109-662a-43af-b446-ce8da7c5558f",
+        "value": "Restricted"
+      },
+      {
+        "name": "Frequency",
+        "id": "618e0ca4-9290-4ca9-abc4-d843b5a7a5f4",
+        "value": "Semi-Annually"
+      },
+      {
+        "name": "Passing Fraction",
+        "id": "c9f7cac0-9cc4-4d4b-9327-6e64f6c8aea8",
+        "value": "60"
+      },
+      {
+        "name": "Description",
+        "id": "7d5d3e91-f7ea-41c2-972b-304a47da9e58",
+        "value": "month date (mnt_dt) description"
+      },
+      {
+        "name": "Searchable",
+        "id": "fa007f41-58cd-4060-92e1-48a4dc7203cb",
+        "value": "false"
+      },
+      {
+        "name": "Certified",
+        "id": "cde28932-5dd3-4a29-957e-847feef03683",
+        "value": "true"
+      },
+      {
+        "name": "Shoppable",
+        "value": "false"
+      },
+      {
+        "name": "searchable",
+        "value": "false"
+      }
+    ],
+    "id": "cd3a21d7-a7e0-43fe-986a-a1d3d3c49b8f",
+    "relations": {
+      "sources": [
+        {
+          "role": "executed by",
+          "typeId": "00000000-0000-0000-0000-000000007016",
+          "id": "6d08fbab-6cb0-4943-99fe-ac4e4dd6dcc3",
+          "source": {
+            "displayName": "eff-dt must be mmddyy",
+            "name": "eff-dt must be mmddyy",
+            "id": "9a7df90e-430c-4461-a453-1da8e81f9cad",
+            "type": "Data Quality Rule"
+          }
+        }
+      ],
+      "targets": []
+    },
+    "status": {
+      "name": "Candidate",
+      "id": "00000000-0000-0000-0000-000000005008"
+    }
+  },
+  {
+    "_key": "5e2401ca-6a88-40e2-9662-52c17e86e543",
+    "_id": "Nodes/5e2401ca-6a88-40e2-9662-52c17e86e543",
+    "_rev": "_fH8eCza---",
+    "identifier": "Datanomist > DataSouk > CTC_DataQuality > adr_dt",
+    "displayName": "adr_dt",
+    "community": {
+      "name": "DataSouk",
+      "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+      "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+    },
+    "type": {
+      "name": "Data Quality Metric",
+      "id": "00000000-0000-0000-0000-000000031107"
+    },
+    "createdOn": "1633610164975",
+    "createdByUserName": "Admin",
+    "responsibilities": [
+      {
+        "groupName": "",
+        "roleId": "9e83a9b7-5447-4998-a983-e5be93d8f0b1",
+        "groupId": "",
+        "name": "Chaitanya Nakka",
+        "roleName": " Architect ",
+        "userName": "chaitanya",
+        "userId": "97072043-3cec-487f-a667-2a477d9d0653"
+      },
+      {
+        "groupName": "",
+        "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+        "groupId": "",
+        "name": "Anbu GCP",
+        "roleName": " Api Developer ",
+        "userName": "Anbu_GCP",
+        "userId": "8326e5a3-4b65-4083-b839-b20ceb8fae01"
+      }
+    ],
+    "createdBy": "00000000-0000-0000-0000-000000900002",
+    "articulationScore": "5.0",
+    "domain": {
+      "name": "CTC_DataQuality",
+      "id": "0431c490-d8c3-4c67-98b2-574886a042e3",
+      "url": "http://datanomist.in:4400/domain/0431c490-d8c3-4c67-98b2-574886a042e3"
+    },
+    "name": "adr_dt",
+    "ratingsCount": "0",
+    "createdByFullName": "Admin Istrator",
+    "avgRating": "0.0",
+    "attributes": [
+      {
+        "name": "Personally Identifiable Information",
+        "id": "ec3bbe7a-3aaa-43f6-a616-ba94a266632b",
+        "value": "true"
+      },
+      {
+        "name": "Security Classification",
+        "id": "8fd649a3-2d41-42a4-b580-d5b9f0e505a3",
+        "value": "Internal Only"
+      },
+      {
+        "name": "Frequency",
+        "id": "a8b21961-e9bf-4ef7-8540-3a9b4d7e5f6d",
+        "value": "Semi-Annually"
+      },
+      {
+        "name": "Passing Fraction",
+        "id": "7d52ed30-7836-496d-ad14-dcadc45545ea",
+        "value": "80"
+      },
+      {
+        "name": "Description",
+        "id": "98c1bde3-7707-43b3-ab07-8b62fe6f826c",
+        "value": "information about address and date is adr_dt"
+      },
+      {
+        "name": "Searchable",
+        "id": "377d61cd-0b97-4b2c-b0ff-35409c335dc2",
+        "value": "true"
+      },
+      {
+        "name": "Certified",
+        "id": "cccc1962-06ed-4dbe-8cfa-64610e495815",
+        "value": "true"
+      },
+      {
+        "name": "Shoppable",
+        "value": "false"
+      },
+      {
+        "name": "searchable",
+        "value": "false"
+      }
+    ],
+    "id": "5e2401ca-6a88-40e2-9662-52c17e86e543",
+    "relations": {
+      "sources": [
+        {
+          "role": "executed by",
+          "typeId": "00000000-0000-0000-0000-000000007016",
+          "id": "4510239a-4e92-4f94-ac13-4af47dbf8593",
+          "source": {
+            "displayName": "eff-dt must be mmddyy",
+            "name": "eff-dt must be mmddyy",
+            "id": "9a7df90e-430c-4461-a453-1da8e81f9cad",
+            "type": "Data Quality Rule"
+          }
+        }
+      ],
+      "targets": []
+    },
+    "status": {
+      "name": "Candidate",
+      "id": "00000000-0000-0000-0000-000000005008"
+    }
+  },
+  {
+    "_key": "e7b44658-bb08-4ef7-9240-8e4d1e99d8af",
+    "_id": "Nodes/e7b44658-bb08-4ef7-9240-8e4d1e99d8af",
+    "_rev": "_fH8eCza--_",
+    "identifier": "Datanomist > DataSouk > CTC_DataQuality > eff_dt must be mmddyy",
+    "displayName": "eff_dt must be mmddyy",
+    "community": {
+      "name": "DataSouk",
+      "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+      "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+    },
+    "type": {
+      "name": "Data Quality Metric",
+      "id": "00000000-0000-0000-0000-000000031107"
+    },
+    "createdOn": "1633320672412",
+    "createdByUserName": "Admin",
+    "responsibilities": [
+      {
+        "groupName": "",
+        "roleId": "9e83a9b7-5447-4998-a983-e5be93d8f0b1",
+        "groupId": "",
+        "name": "Chaitanya Nakka",
+        "roleName": " Architect ",
+        "userName": "chaitanya",
+        "userId": "97072043-3cec-487f-a667-2a477d9d0653"
+      },
+      {
+        "groupName": "",
+        "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+        "groupId": "",
+        "name": "Architect API",
+        "roleName": " Api Developer ",
+        "userName": "architect",
+        "userId": "70906ea3-96a4-4a9c-9b8b-948a1f6f7479"
+      }
+    ],
+    "createdBy": "00000000-0000-0000-0000-000000900002",
+    "articulationScore": "5.0",
+    "domain": {
+      "name": "CTC_DataQuality",
+      "id": "0431c490-d8c3-4c67-98b2-574886a042e3",
+      "url": "http://datanomist.in:4400/domain/0431c490-d8c3-4c67-98b2-574886a042e3"
+    },
+    "name": "eff_dt must be mmddyy",
+    "ratingsCount": "0",
+    "createdByFullName": "Admin Istrator",
+    "avgRating": "0.0",
+    "attributes": [
+      {
+        "name": "Personally Identifiable Information",
+        "id": "57278a10-3198-4ac0-811f-89aeb74ee645",
+        "value": "true"
+      },
+      {
+        "name": "Security Classification",
+        "id": "31bdcb7f-6755-4d27-b390-862bdcf5a014",
+        "value": "Internal Only"
+      },
+      {
+        "name": "Frequency",
+        "id": "8f59ccd8-1060-4781-95d2-30001b29afb2",
+        "value": "Quarterly"
+      },
+      {
+        "name": "Passing Fraction",
+        "id": "a57fb39d-8429-4198-b794-81b1e3455cdc",
+        "value": "80"
+      },
+      {
+        "name": "Description",
+        "id": "b37e2b60-b250-4d7a-b399-4d8089889081",
+        "value": " description about the eff_dt must be mmddyy"
+      },
+      {
+        "name": "Searchable",
+        "id": "585bf42f-9508-4efd-8750-ae9ce94ae9cb",
+        "value": "true"
+      },
+      {
+        "name": "Result",
+        "id": "e9e4d8b7-4c7b-442a-809a-227cae46408c",
+        "value": "true"
+      },
+      {
+        "name": "Certified",
+        "id": "e5e013e7-0ac8-46ab-b6d1-43ba0a042cc3",
+        "value": "true"
+      },
+      {
+        "name": "Shoppable",
+        "value": "false"
+      },
+      {
+        "name": "searchable",
+        "value": "false"
+      }
+    ],
+    "id": "e7b44658-bb08-4ef7-9240-8e4d1e99d8af",
+    "relations": {
+      "sources": [
+        {
+          "role": "executed by",
+          "typeId": "00000000-0000-0000-0000-000000007016",
+          "id": "5f1163f3-e2c3-4e3e-bc10-da204a3d012e",
+          "source": {
+            "displayName": "eff-dt must be mmddyy",
+            "name": "eff-dt must be mmddyy",
+            "id": "9a7df90e-430c-4461-a453-1da8e81f9cad",
+            "type": "Data Quality Rule"
+          }
+        }
+      ],
+      "targets": []
+    },
+    "status": {
+      "name": "Candidate",
+      "id": "00000000-0000-0000-0000-000000005008"
+    }
+  }
+]

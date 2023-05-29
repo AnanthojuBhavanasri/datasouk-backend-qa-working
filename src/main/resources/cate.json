@@ -1,0 +1,297 @@
+[{
+	"value": "emea",
+	"label":"EMEA",
+	"children": [{
+		"value": "europe",
+		"label": "Europe",
+		"children": [{
+			"value": "western europe",
+			"label": "Western Europe",
+			"children": [{
+				"value":"west germany",
+				"label": "West Germany"
+			},
+			{
+				"value":"finland",
+				"label": "Finland"
+			},
+			{
+				"value":"sweden",
+				"label": "Sweden"
+			},
+			{
+				"value":"luxembourg",
+				"label": "Luxembourg"
+			},
+			{
+				"value":"italy",
+				"label": "Italy"
+			},
+			{
+				"value":"east germany",
+				"label": "East Germany"
+			},
+			{
+				"value":"netherlands",
+				"label": "Netherlands"
+			},
+			{
+				"value":"belgium",
+				"label": "Belgium"
+			},
+			{
+				"value":"germany",
+				"label": "Germany"
+			},
+			{
+				"value":"united kingdom",
+				"label": "United Kingdom"
+			},
+			{
+				"value":"switzerland",
+				"label": "Switzerland"
+			},
+			{
+				"value":"spain",
+				"label": "Spain"
+			},
+			{
+				"value":"hungary",
+				"label": "Hungary"
+			},
+			{
+				"value":"ireland",
+				"label": "Ireland"
+			},
+			{
+				"value":"france",
+				"label": "France"
+			},
+			{
+				"value":"lithuania",
+				"label": "Lithuania"
+			},
+			{
+				"value":"norway",
+				"label": "Norway"
+			},
+			{
+				"value":"denmark",
+				"label": "Denmark"
+			}]
+		},
+		{
+			"value":"Estern Europe",
+			"label": "estern europe",
+			"children": [{
+				"value": "poland",
+				"label": "Poland"
+			},
+			{	
+				"value": "bulgaria",
+				"label": "Bulgaria"
+			}]
+		},
+		{	
+			"value": "middele east",
+			"label": "Middele East",
+			"children": [{
+				"value": "lebanon",
+				"label": "Lebanon"
+			},
+			{
+				"value": "israel",
+				"label": "Israel"
+			},
+			{
+				"value": "turkey",
+				"label": "Turkey"
+			}]
+		},
+		{
+			"value":"emirates",
+			"label": "Emirates",
+			"children": [{
+				"value":"united arab emirates",
+				"label": "United Arab Emirates"
+			}]
+		},
+		{
+				"value":"russia",
+				"label": "Russia",
+			"children": []
+		}]
+	}]
+},
+{
+	"value":"america",
+	"label": "America",
+	"children": [{
+		"value":"south america",
+		"label": "South America",
+		"children": [{
+			"value":"brazil",
+			"label": "Brazil"
+		},
+		{
+			"value":"argentina",
+			"label": "Argentina"
+		}]
+	},
+	{
+		"value":"central america",
+		"label": "Central America",
+		"children": [{
+			"value":"colombia",
+			"label": "Colombia"
+		},
+		{
+			"value":"chile",
+			"label": "Chile"
+		},
+		{
+			"value":"venezuela",
+			"label": "Venezuela"
+		}]
+	},
+	{
+		"value":"north america",
+		"label": "North America",
+		"children": [{
+			"value":"united states",
+			"label": "United States"
+		},
+		{
+			"value":"mexico",
+			"label": "Mexico"
+		},
+		{
+			"value":"canada",
+			"label": "Canada"
+		}]
+	}]
+},
+{
+			"value":"apac",
+			"label": "APAC",
+	"children": [{
+			"value":"south asia",
+			"label": "South Asia",
+		"children": [{
+			"value":"malaysia",
+			"label": "Malaysia"
+		},
+		{
+			"value":"singapore",
+			"label": "Singapore"
+		},
+		{
+			"value":"china",
+			"label": "China"
+		},
+		{
+			"value":"philippines",
+			"label": "Philippines"
+		},
+		{
+			"value":"indonesia",
+			"label": "Indonesia"
+		},
+		{
+			"value":"taiwan",
+			"label": "Taiwan"
+		},
+		{
+			"value":"hongkong",
+			"label": "HongKong"
+		},
+		{
+			"value":"thailand",
+			"label": "Thailand"
+		},
+		{
+			"value":"japan",
+			"label": "Japan"
+		},
+		{
+			"value":"south korea",
+			"label": "South Korea"
+		},
+		{
+			"value":"pakistan",
+			"label": "Pakistan"
+		}]
+	},
+	{
+		   "value":"indian subcontinent",
+			"label": "Indian Subcontinent",
+		"children": [{
+			"value":"india",
+			"label": "India"
+		}]
+	},
+	{
+			"value":"australia",
+			"label": "Australia",
+		"children": []
+	},
+	{
+		"value":"new zealand",
+			"label": "New Zealand",
+		"children": []
+	}]
+},
+{
+	"value":"africa",
+	"label": "Africa",
+	"children": [{
+		"value":"romania",
+		"label": "Romania",
+		"children": []
+	},
+	{
+		"value":"sudan",
+		"label": "Sudan",
+		"children": []
+	},
+	{	
+		"value":"south africa",
+		"label": "South Africa",
+		"children": []
+	},
+	{
+		"value":"nigeria",
+		"label": "Nigeria",
+		"children": []
+	},
+	{
+		"value":"uruguay",
+		"label": "Uruguay",
+		"children": []
+	},
+	{
+		"value":"somalia",
+		"label": "Somalia",
+		"children": []
+	},
+	{
+		"value":"egypt",
+		"label": "Egypt",
+		"children": []
+	},
+	{
+		"value":"uganda",
+		"label": "Uganda",
+		"children": []
+	},
+	{
+		"value":"cambodia",
+		"label": "Cambodia",
+		"children": []
+	},
+	{
+		"value":"kenya",
+		"label": "Kenya",
+		"children": []
+	}]
+}]

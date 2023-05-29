@@ -1,0 +1,63 @@
+{
+	"ViewConfig": {
+		"Resources": {
+			"Community": {
+				"Id": {
+					"name": "communityId"
+				},
+				"Name": {
+					"name": "communityName"
+				},
+				"ParentCommunity": {
+					"Name": {
+						"name": "ParentCommunity_Name"
+					},
+					"Id": {
+						"name": "ParentCommunity_Id"
+					}
+				},
+				"CreatedOn": {
+					"name": "CreatedOn"
+				},
+				"lastModifiedBy": {
+					"name": "lastModifiedBy"
+				},
+				"CreatedBy": {
+					"name": "CreatedBy"
+				},
+				"lastModified": {
+					"name": "lastModified"
+				},
+				"meta": {
+					"name": "meta"
+				},
+				"Member": {
+					"User": {
+						"Id": {
+							"name": "userId"
+						},
+						"FirstName": {
+							"name": "firstName"
+						},
+						"LastName": {
+							"name": "lastName"
+						}
+					},
+					"Role": {
+						"Signifier": {
+							"name": "roleName"
+						}
+					}
+				},
+				"Vocabulary": {
+					"Name": {
+						"name": "Domain_Name"
+					},
+					"Id": {
+						"name": "Domain_Id"
+					}
+				}
+			}
+		}
+	}
+}

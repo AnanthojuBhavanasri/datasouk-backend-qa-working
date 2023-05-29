@@ -1,0 +1,211 @@
+{
+  "_key": "9f6d8c58-0161-494e-8145-9d99eba298aa",
+  "_id": "Nodes/9f6d8c58-0161-494e-8145-9d99eba298aa",
+  "_rev": "_fH8eCo---C",
+  "identifier": "Datanomist > DataSouk > Netflix > netflix_titles.csv > country",
+  "displayName": "netflix_titles.csv > country",
+  "community": {
+    "name": "DataSouk",
+    "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+    "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+  },
+  "type": {
+    "metaCollectionName": "PhysicalDataDictionary",
+    "name": "Column",
+    "id": "00000000-0000-0000-0000-000000031008"
+  },
+  "createdOn": "1619064562894",
+  "createdByUserName": "Admin",
+  "responsibilities": [
+    {
+      "groupName": "",
+      "roleId": "9e83a9b7-5447-4998-a983-e5be93d8f0b1",
+      "groupId": "",
+      "name": "ACG consumer1",
+      "roleName": " Architect ",
+      "userName": "Consumer_1",
+      "userId": "a9225ba7-13ff-41b3-a939-d614f18f9751"
+    },
+    {
+      "groupName": "",
+      "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+      "groupId": "",
+      "name": "Admin Istrator",
+      "roleName": " Api Developer ",
+      "userName": "Admin",
+      "userId": "00000000-0000-0000-0000-000000900002"
+    },
+    {
+      "groupName": "",
+      "roleId": "00000000-0000-0000-0000-000000005016",
+      "groupId": "",
+      "name": "Naga B",
+      "roleName": " Business Steward ",
+      "userName": "Chari",
+      "userId": "8671092f-c547-405e-8939-06f66be6d043"
+    },
+    {
+      "groupName": "",
+      "roleId": "00000000-0000-0000-0000-000000005040",
+      "groupId": "",
+      "name": "Nitish S",
+      "roleName": " Owner ",
+      "userName": "Nitish",
+      "userId": "807498fc-25ed-4d48-9f57-5517cf55d2fe"
+    }
+  ],
+  "createdBy": "00000000-0000-0000-0000-000000900002",
+  "articulationScore": "70.0",
+  "domain": {
+    "name": "Netflix",
+    "id": "31986dbd-2b35-4d4c-b0bf-47f2fdd45f1b",
+    "url": "http://datanomist.in:4400/domain/31986dbd-2b35-4d4c-b0bf-47f2fdd45f1b"
+  },
+  "name": "netflix_titles.csv > country",
+  "ratingsCount": "0",
+  "createdByFullName": "Admin Istrator",
+  "avgRating": "0.0",
+  "attributes": [
+    {
+      "name": "LastModifiedBy",
+      "id": "a67be64b-f449-4cf4-8be2-2abd87675eab",
+      "value": "Its modified by admin"
+    },
+    {
+      "name": "Personally Identifiable Information",
+      "id": "436907d7-40f2-4a4d-99bb-8aae74e7ad82",
+      "value": "true"
+    },
+    {
+      "name": "Security Classification",
+      "id": "a07a6af8-7958-4070-80a8-9860109df774",
+      "value": "Restricted"
+    },
+    {
+      "name": "Frequency",
+      "id": "2a49fd67-e23a-4dc3-a87f-eb8db6bbd85a",
+      "value": "Annual"
+    },
+    {
+      "name": "Categorical Data",
+      "id": "e65fc3e3-6bcc-45f0-85d8-402e5e291eda",
+      "value": "true"
+    },
+    {
+      "name": "Description",
+      "id": "1949bbc1-3399-4128-a157-ef6b1b45772f",
+      "value": "sample description"
+    },
+    {
+      "name": "Searchable",
+      "id": "95025267-ecd6-42f2-9f73-72c9c610dd3b",
+      "value": "false"
+    },
+    {
+      "name": "LastModifiedOn",
+      "id": "c7312354-01d8-4f12-b44b-c7c89858545c",
+      "value": "1625356800000"
+    },
+    {
+      "name": "Certified",
+      "id": "5b224a63-be5e-4c31-89a8-2eef9cb98d0f",
+      "value": "true"
+    },
+    {
+      "name": "Shoppable",
+      "value": "false"
+    },
+    {
+      "name": "searchable",
+      "value": "false"
+    }
+  ],
+  "id": "9f6d8c58-0161-494e-8145-9d99eba298aa",
+  "relations": {
+    "sources": [
+      {
+        "role": "contained by",
+        "typeId": "9aa1b8e4-c2a6-41ce-ac9e-08e43d5a901a",
+        "id": "03588a72-f054-4240-aa2d-55a1ae3cccca",
+        "source": {
+          "displayName": "COVID-19 World Vaccination Progress",
+          "name": "COVID-19 World Vaccination Progress",
+          "id": "3244f334-631d-4893-9759-e789ceca14a5",
+          "type": "Data Set"
+        }
+      },
+      {
+        "role": "contained by",
+        "typeId": "9aa1b8e4-c2a6-41ce-ac9e-08e43d5a901a",
+        "id": "b5aff5f9-f476-46fd-9c09-4d8d251ff805",
+        "source": {
+          "displayName": "Country",
+          "name": "Country",
+          "id": "678d3798-71a7-4b82-b9ae-d7735d9f0c99",
+          "type": "Data Set"
+        }
+      },
+      {
+        "role": "represents",
+        "typeId": "c97138d7-b40b-4aa8-948b-6ad6c65bb48b",
+        "id": "30c0dc0e-23ad-46b4-a691-ccca17850310",
+        "source": {
+          "displayName": "Assets",
+          "name": "Assets",
+          "id": "ae25d7a5-c85e-44b9-a7f0-7d9ed5d5bae5",
+          "type": "Business Term"
+        }
+      },
+      {
+        "role": "complies to",
+        "typeId": "6ba10a9f-d403-4221-9bb4-7654e598b454",
+        "id": "be84c8d5-5e0d-4c5a-b371-3a926f9ee076",
+        "source": {
+          "displayName": "eff-dt must be mmddyy",
+          "name": "eff-dt must be mmddyy",
+          "id": "9a7df90e-430c-4461-a453-1da8e81f9cad",
+          "type": "Data Quality Rule"
+        }
+      }
+    ],
+    "targets": [
+      {
+        "CoRole": "representedBy",
+        "typeId": "cc636261-b02c-4e1f-b38a-c2e0872fe4a6",
+        "id": "c7f49e3f-10d2-4136-8b45-b87461169fa4",
+        "target": {
+          "displayName": "Country",
+          "name": "Country",
+          "id": "678d3798-71a7-4b82-b9ae-d7735d9f0c99",
+          "type": "Data Set"
+        }
+      },
+      {
+        "CoRole": "representedBy",
+        "typeId": "47a0d992-dd25-4813-b226-2dacccee8152",
+        "id": "59c3f0ae-de0e-477a-a04b-1c5f056ecb10",
+        "target": {
+          "displayName": "Accounts payable",
+          "name": "Accounts payable",
+          "id": "4c520581-f474-4473-979c-a8c29081dfc9",
+          "type": "Business Term"
+        }
+      },
+      {
+        "CoRole": "contains",
+        "typeId": "9aa1b8e4-c2a6-41ce-ac9e-08e43d5a901a",
+        "id": "f81d7d42-795a-4d86-90d6-9be9b3f2872e",
+        "target": {
+          "displayName": "calculated_premium",
+          "name": "calculated_premium",
+          "id": "f5d8736a-681d-4653-9de5-3dce8b66f3ba",
+          "type": "Column"
+        }
+      }
+    ]
+  },
+  "status": {
+    "name": "Reviewed",
+    "id": "00000000-0000-0000-0000-000000005021"
+  }
+}

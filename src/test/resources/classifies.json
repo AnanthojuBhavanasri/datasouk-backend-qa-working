@@ -1,0 +1,228 @@
+{
+  "_key": "ae25d7a5-c85e-44b9-a7f0-7d9ed5d5bae5",
+  "_id": "Nodes/ae25d7a5-c85e-44b9-a7f0-7d9ed5d5bae5",
+  "_rev": "_fH8eCq---A",
+  "identifier": "Datanomist > DataSouk > Business Graph > Assets",
+  "displayName": "Assets",
+  "community": {
+    "name": "DataSouk",
+    "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+    "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+  },
+  "type": {
+    "metaCollectionName": "Business",
+    "name": "Business Term",
+    "id": "00000000-0000-0000-0000-000000011001"
+  },
+  "createdOn": "1616054602749",
+  "createdByUserName": "Alekya",
+  "responsibilities": [
+    {
+      "groupName": "",
+      "roleId": "9e83a9b7-5447-4998-a983-e5be93d8f0b1",
+      "groupId": "",
+      "name": "Chaitanya Nakka",
+      "roleName": " Architect ",
+      "userName": "chaitanya",
+      "userId": "97072043-3cec-487f-a667-2a477d9d0653"
+    },
+    {
+      "groupName": "",
+      "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+      "groupId": "",
+      "name": "Chaitanya Nakka",
+      "roleName": " Api Developer ",
+      "userName": "chaitanya",
+      "userId": "97072043-3cec-487f-a667-2a477d9d0653"
+    },
+    {
+      "groupName": "",
+      "roleId": "00000000-0000-0000-0000-000000005016",
+      "groupId": "",
+      "name": "Chaitanya Nakka",
+      "roleName": " Business Steward ",
+      "userName": "chaitanya",
+      "userId": "97072043-3cec-487f-a667-2a477d9d0653"
+    },
+    {
+      "groupName": "",
+      "roleId": "00000000-0000-0000-0000-000000005040",
+      "groupId": "",
+      "name": "Nitish S",
+      "roleName": " Owner ",
+      "userName": "Nitish",
+      "userId": "807498fc-25ed-4d48-9f57-5517cf55d2fe"
+    }
+  ],
+  "createdBy": "00000000-0000-0000-0000-000000900002",
+  "articulationScore": "60.0",
+  "domain": {
+    "name": "Business Graph",
+    "id": "5692526f-4712-42c6-b03b-10c22ef48643",
+    "url": "http://datanomist.in:4400/domain/5692526f-4712-42c6-b03b-10c22ef48643"
+  },
+  "name": "Assets",
+  "ratingsCount": "0",
+  "createdByFullName": "Alekya",
+  "avgRating": "0.0",
+  "attributes": [
+    {
+      "name": "Personally Identifiable Information",
+      "id": "918bd2e4-c608-4b73-a74e-9a9b3d44ed0d",
+      "value": "true"
+    },
+    {
+      "name": "Security Classification",
+      "id": "9b830c9f-ce80-4ca1-9605-adaf9b8ae332",
+      "value": "Restricted"
+    },
+    {
+      "name": "Frequency",
+      "id": "c78528e7-4afd-4196-9c92-14bb338564da",
+      "value": "Annual"
+    },
+    {
+      "name": "Description",
+      "id": "a813e92d-a3a1-4600-bbfa-bf42d3c00986",
+      "value": "an item of property owned by a person or company, regarded as having value and available to meet debts, commitments, or legacies."
+    },
+    {
+      "name": "Searchable",
+      "id": "e43071b5-e05d-49b9-92be-559649a4ea24",
+      "value": "true"
+    },
+    {
+      "name": "LastModifiedOn",
+      "id": "52ae0c9d-c10c-4f80-9d2c-64b775d26894",
+      "value": "1625184000000"
+    },
+    {
+      "name": "Definition",
+      "id": "ff4aabd0-e88d-4209-ae5d-2bf029d3977a",
+      "value": "<div>a useful or valuable thing</div>"
+    },
+    {
+      "name": "Certified",
+      "id": "5135e6e4-3324-4156-9ee2-c62ae5076d04",
+      "value": "true"
+    },
+    {
+      "name": "Shoppable",
+      "value": "false"
+    },
+    {
+      "name": "searchable",
+      "value": "false"
+    }
+  ],
+  "id": "ae25d7a5-c85e-44b9-a7f0-7d9ed5d5bae5",
+  "relations": {
+    "sources": [
+      {
+        "role": "associates",
+        "typeId": "00000000-0000-0000-0000-000000007008",
+        "id": "b553fcc4-74ec-4761-988f-47e41fbe52e7",
+        "source": {
+          "displayName": "Owner",
+          "name": "Owner",
+          "id": "b3a7f6ab-c872-4abf-997e-7bd80a257db9",
+          "type": "Line of Business"
+        }
+      },
+      {
+        "role": "classifies",
+        "typeId": "00000000-0000-0000-0000-000000007007",
+        "id": "9ba97f0e-37a2-4bd2-b52f-869eb234203c",
+        "source": {
+          "displayName": "employees",
+          "name": "employees",
+          "id": "04255870-39f3-4de6-984e-052df84f82ec",
+          "type": "Data domain"
+        }
+      }
+    ],
+    "targets": [
+      {
+        "CoRole": "having",
+        "typeId": "6fdd4ac9-9192-4ef2-8fd2-7b0f5df01ee6",
+        "id": "1f04aee7-e820-4500-8097-4f9f8c334c0b",
+        "target": {
+          "displayName": "cast",
+          "name": "netflix_titles_main.csv > cast",
+          "id": "cbc8d5a6-d5dc-4e73-a5b5-1e4fc1792726",
+          "type": "Column"
+        }
+      },
+      {
+        "CoRole": "Used By",
+        "typeId": "c6c646a0-43f5-4195-8500-956b488956d6",
+        "id": "51c1f7cf-440f-431a-973d-7f67d29b01e0",
+        "target": {
+          "displayName": "medicines and vitamins",
+          "name": "medicines and vitamins",
+          "id": "159b778c-256a-4e55-8dea-82a75b8f9c28",
+          "type": "Product"
+        }
+      },
+      {
+        "CoRole": "Represented by",
+        "typeId": "121ba0d3-c2fc-47eb-b1bd-6b555cd5189f",
+        "id": "1b715c03-a158-4a41-b8d4-95dd881508a7",
+        "target": {
+          "displayName": "schema",
+          "name": "schema",
+          "id": "c9db1280-690f-4d66-b15a-a7b818a2f958",
+          "type": "Schema"
+        }
+      },
+      {
+        "CoRole": "represented by",
+        "typeId": "c97138d7-b40b-4aa8-948b-6ad6c65bb48b",
+        "id": "30c0dc0e-23ad-46b4-a691-ccca17850310",
+        "target": {
+          "displayName": "netflix_titles.csv > country",
+          "name": "netflix_titles.csv > country",
+          "id": "9f6d8c58-0161-494e-8145-9d99eba298aa",
+          "type": "Column"
+        }
+      },
+      {
+        "CoRole": "represented by",
+        "typeId": "c97138d7-b40b-4aa8-948b-6ad6c65bb48b",
+        "id": "9d4bdd5e-9e15-4737-a1cd-40e6792a4d7b",
+        "target": {
+          "displayName": "ID column",
+          "name": "ID column",
+          "id": "6e306f57-0d7a-4898-bbc8-3912debc3a6b",
+          "type": "Column"
+        }
+      },
+      {
+        "CoRole": "represented by",
+        "typeId": "7c7fe1cf-532d-4d3b-a2a1-dbf519ddc99f",
+        "id": "5a4b6c64-46b5-45db-a071-0d34c9124ea2",
+        "target": {
+          "displayName": "Field",
+          "name": "Field",
+          "id": "77252748-c593-457c-97af-8d980a6c7b12",
+          "type": "Field"
+        }
+      },
+      {
+        "CoRole": "catagorized by",
+        "typeId": "0060a3fe-ddba-4754-8c00-fa4b97931ea0",
+        "id": "a5f94e0c-70dd-48f3-976c-b990c74b6437",
+        "target": {
+          "displayName": "students",
+          "name": "students",
+          "id": "224deba6-ecd1-418f-8566-31c632fdc903",
+          "type": "Data domain"
+        }
+      }
+    ]
+  },
+  "status": {
+    "name": "Accepted",
+    "id": "00000000-0000-0000-0000-000000005009"
+  }
+}

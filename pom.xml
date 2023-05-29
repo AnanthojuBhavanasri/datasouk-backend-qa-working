@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>datasouk</artifactId>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <groupId>org.springframework.boot</groupId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <configuration>
+              <descriptors>
+                <descriptor>src/assembly/jar-with-deps-with-exclude.xml</descriptor>
+              </descriptors>
+            </configuration>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <id>only</id>
+            <phase>package</phase>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+    <!-- <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+            <filtering>true</filtering>
+        </resource>
+    </resources> -->
+  </build>
+  <dependencies>
+    <dependency>
+      <artifactId>datasouk-core</artifactId>
+      <classifier>datasouk-core</classifier>
+      <groupId>com.datasouk.core</groupId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <artifactId>datasouk-integration</artifactId>
+      <classifier>datasouk-integration</classifier>
+      <groupId>com.datasouk.integration</groupId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <groupId>org.springframework.boot</groupId>
+    </dependency>
+    <dependency>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <artifactId>arangodb-java-driver</artifactId>
+      <groupId>com.arangodb</groupId>
+      <version>6.8.1</version>
+    </dependency>
+    <dependency>
+      <artifactId>arangodb-spring-data</artifactId>
+      <groupId>com.arangodb</groupId>
+      <version>3.6.0</version>
+    </dependency>
+    <dependency>
+      <artifactId>dozer</artifactId>
+      <groupId>net.sf.dozer</groupId>
+      <version>5.5.1</version>
+    </dependency>
+    <!-- <dependency> <groupId>commons-httpclient</groupId> <artifactId>commons-httpclient</artifactId>
+        <version>3.1</version> </dependency> <dependency> <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId> <version>4.5.11</version>$NO-MVN-MAN-VER$
+        </dependency> <dependency> <groupId>org.apache.httpcomponents</groupId> <artifactId>httpmime</artifactId>
+        <version>4.3.1</version>$NO-MVN-MAN-VER$ </dependency> <dependency> <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpcore</artifactId> <version>4.4.13</version>$NO-MVN-MAN-VER$
+        </dependency> -->
+    <dependency>
+      <artifactId>commons-lang</artifactId>
+      <groupId>commons-lang</groupId>
+      <version>2.6</version>
+    </dependency>
+    <dependency>
+      <artifactId>httpclient</artifactId>
+      <groupId>org.apache.httpcomponents</groupId>
+      <version>4.5.11</version>
+    </dependency>
+    <dependency>
+      <artifactId>json</artifactId>
+      <groupId>org.json</groupId>
+      <version>20200518</version>
+    </dependency>
+    <dependency>
+      <artifactId>jaxb-api</artifactId>
+      <groupId>javax.xml.bind</groupId>
+      <version>2.1</version>
+    </dependency>
+    <dependency>
+      <artifactId>poi-ooxml</artifactId>
+      <groupId>org.apache.poi</groupId>
+      <version>4.1.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>lombok</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <artifactId>jackson-databind</artifactId>
+      <groupId>com.fasterxml.jackson.core</groupId>
+    </dependency>
+
+    <!--slack integration-->
+    <dependency>
+      <artifactId>analytics</artifactId>
+      <groupId>com.rudderstack.sdk.java.analytics</groupId>
+      <version>3.0.0</version>
+    </dependency>
+    <!-- swagger -->
+    <!--<dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>2.9.2</version>
+    </dependency>
+    <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>2.9.2</version>
+    </dependency> -->
+    <dependency>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <groupId>org.springdoc</groupId>
+      <version>1.6.14</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+    <dependency>
+      <artifactId>jackson-core</artifactId>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <version>2.13.4</version>
+    </dependency>
+    <dependency>
+      <artifactId>jackson-dataformat-csv</artifactId>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <version>2.13.4</version>
+    </dependency>
+    <dependency>
+      <artifactId>jackson-databind</artifactId>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <version>2.13.4.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>jackson-annotations</artifactId>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <version>2.13.4</version>
+    </dependency>
+    <dependency>
+      <artifactId>lombok</artifactId>
+      <groupId>org.projectlombok</groupId>
+    </dependency>
+
+    <dependency>
+      <artifactId>logback-classic</artifactId>
+      <groupId>ch.qos.logback</groupId>
+      <version>1.2.3</version>
+    </dependency>
+    <dependency>
+      <artifactId>trino-jdbc</artifactId>
+      <groupId>io.trino</groupId>
+      <version>356</version>
+    </dependency>
+
+  </dependencies>
+  <description>Datasouk Integrations</description>
+  <groupId>com</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <name>datasouk</name>
+  <packaging>jar</packaging>
+  <parent>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <groupId>org.springframework.boot</groupId>
+    <relativePath/>
+    <version>2.4.2</version> <!-- lookup parent from repository -->
+  </parent>
+  <properties>
+    <java.version>11</java.version>
+  </properties>
+  <version>0.1</version>
+</project>

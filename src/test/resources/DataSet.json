@@ -1,0 +1,178 @@
+{
+  "_key": "3244f334-631d-4893-9759-e789ceca14a5",
+  "_id": "Nodes/3244f334-631d-4893-9759-e789ceca14a5",
+  "_rev": "_fH8eDjW--C",
+  "identifier": "Datanomist > DataSouk > Logical data graph > COVID-19 World Vaccination Progress",
+  "displayName": "COVID-19 World Vaccination Progress",
+  "community": {
+    "name": "DataSouk",
+    "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+    "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+  },
+  "type": {
+    "metaCollectionName": "LogicalData",
+    "name": "Data Set",
+    "id": "00000000-0000-0000-0001-000400000001"
+  },
+  "createdOn": "1616050517510",
+  "createdByUserName": "Nikil",
+  "responsibilities": [
+    {
+      "groupName": "",
+      "roleId": "9e83a9b7-5447-4998-a983-e5be93d8f0b1",
+      "groupId": "",
+      "name": "Admin Istrator",
+      "roleName": " Architect ",
+      "userName": "Admin",
+      "userId": "00000000-0000-0000-0000-000000900002"
+    },
+    {
+      "groupName": "",
+      "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+      "groupId": "",
+      "name": "Admin Istrator",
+      "roleName": " Api Developer ",
+      "userName": "Admin",
+      "userId": "00000000-0000-0000-0000-000000900002"
+    },
+    {
+      "groupName": "",
+      "roleId": "00000000-0000-0000-0000-000000005016",
+      "groupId": "",
+      "name": "Chaitanya Nakka",
+      "roleName": " Business Steward ",
+      "userName": "chaitanya",
+      "userId": "97072043-3cec-487f-a667-2a477d9d0653"
+    },
+    {
+      "groupName": "",
+      "roleId": "00000000-0000-0000-0000-000000005040",
+      "groupId": "",
+      "name": "Nitish S",
+      "roleName": " Owner ",
+      "userName": "Nitish",
+      "userId": "807498fc-25ed-4d48-9f57-5517cf55d2fe"
+    }
+  ],
+  "createdBy": "00000000-0000-0000-0000-000000900002",
+  "articulationScore": "10.0",
+  "domain": {
+    "name": "Logical data graph",
+    "id": "3d5a45b2-acc4-4cc8-9611-eed53a24a93b",
+    "url": "http://datanomist.in:4400/domain/3d5a45b2-acc4-4cc8-9611-eed53a24a93b"
+  },
+  "name": "COVID-19 World Vaccination Progress",
+  "ratingsCount": "2",
+  "createdByFullName": "Nikil",
+  "avgRating": "2.0",
+  "attributes": [
+    {
+      "name": "Personally Identifiable Information",
+      "id": "755eb7dd-a44d-4803-8c26-81c55d8b994c",
+      "value": "true"
+    },
+    {
+      "name": "Security Classification",
+      "id": "865fb0b0-b3dc-4d54-82c8-f6c8d7e4b098",
+      "value": "Public"
+    },
+    {
+      "name": "Frequency",
+      "id": "558d2231-309c-4ec6-91f2-067f717649af",
+      "value": "Quarterly"
+    },
+    {
+      "name": "Description",
+      "id": "80dedf06-d779-4c7d-8715-f51069e25597",
+      "value": "COVID-19 World wide Vaccination progress descriptoin"
+    },
+    {
+      "name": "Searchable",
+      "id": "07144f65-21e5-4c8e-9796-2e5ea3f80bfd",
+      "value": "true"
+    },
+    {
+      "name": "Certified",
+      "id": "1b3e452f-4dfd-4ea3-9a51-f34590e0b85e",
+      "value": "true"
+    },
+    {
+      "name": "Shoppable",
+      "value": "true"
+    },
+    {
+      "name": "searchable",
+      "value": "true"
+    },
+    {
+      "name": "tag",
+      "id": "95bb31d3-27c6-4e01-b255-6d4bdb197a63",
+      "value": "tag1"
+    },
+    {
+      "name": "tag",
+      "id": "95bb31d3-27c6-4e01-b255-6d4bdb197a63",
+      "value": "tag2"
+    },
+    {
+      "name": "LastModifiedOn",
+      "id": "c7312354-01d8-4f12-b44b-c7c89858545c",
+      "value": "1625356800000"
+    }
+  ],
+  "id": "3244f334-631d-4893-9759-e789ceca14a5",
+  "relations": {
+    "sources": [
+      {
+        "role": "is essential for",
+        "typeId": "81ccd0b0-e879-4021-90ac-08e6113def9b",
+        "id": "4a97003d-8ce9-4103-a622-3e477a718c6f",
+        "source": {
+          "displayName": "Government Sector",
+          "name": "Government Sector",
+          "id": "eec2fdb8-2d6b-40b4-b9fe-c8c18688aeb3",
+          "type": "Data Use"
+        }
+      }
+    ],
+    "targets": [
+      {
+        "CoRole": "contained by",
+        "typeId": "767c4d6b-a6bf-4868-bc0d-e11d007a6e35",
+        "id": "6b704c8a-fcce-43a5-959d-4d7625097bb5",
+        "target": {
+          "displayName": "age",
+          "name": "age",
+          "id": "2854be7a-3939-4754-8329-bb95edb8b8b2",
+          "type": "Field"
+        }
+      },
+      {
+        "CoRole": "contains",
+        "typeId": "9aa1b8e4-c2a6-41ce-ac9e-08e43d5a901a",
+        "id": "03588a72-f054-4240-aa2d-55a1ae3cccca",
+        "target": {
+          "displayName": "netflix_titles.csv > country",
+          "name": "netflix_titles.csv > country",
+          "id": "9f6d8c58-0161-494e-8145-9d99eba298aa",
+          "type": "Column"
+        }
+      },
+      {
+        "CoRole": "contains",
+        "typeId": "9aa1b8e4-c2a6-41ce-ac9e-08e43d5a901a",
+        "id": "844400d8-b299-4444-ba0e-6f8a6d4a41b0",
+        "target": {
+          "displayName": "country",
+          "name": "netflix_titles_main.csv > country",
+          "id": "7699a49a-f504-40f0-8b25-1ce9a4071634",
+          "type": "Column"
+        }
+      }
+    ]
+  },
+  "status": {
+    "name": "In Progress",
+    "id": "00000000-0000-0000-0000-000000005019"
+  }
+}

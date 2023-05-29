@@ -1,0 +1,98 @@
+{
+  "_key": "7c8226ed-6781-4de4-8345-db7467d1bd52",
+  "_id": "Nodes/7c8226ed-6781-4de4-8345-db7467d1bd52",
+  "_rev": "_fH8eCzW--B",
+  "identifier": "Datanomist > DataSouk > Physical data graph > user table",
+  "displayName": "user table",
+  "community": {
+    "name": "DataSouk",
+    "id": "7376e4ce-1817-4bce-bf79-687240e63c6a",
+    "url": "http://datanomist.in:4400/community/7376e4ce-1817-4bce-bf79-687240e63c6a"
+  },
+  "type": {
+    "metaCollectionName": "PhysicalDataDictionary",
+    "name": "Table",
+    "id": "00000000-0000-0000-0000-000000031007"
+  },
+  "createdOn": "1616057528156",
+  "createdByUserName": "Admin",
+  "responsibilities": [
+    {
+      "groupName": "",
+      "roleId": "9e83a9b7-5447-4998-a983-e5be93d8f0b1",
+      "groupId": "",
+      "name": "ACG consumer1",
+      "roleName": " Architect ",
+      "userName": "Consumer_1",
+      "userId": "a9225ba7-13ff-41b3-a939-d614f18f9751"
+    },
+    {
+      "groupName": "",
+      "roleId": "bde83078-4e62-4c63-8220-944f4ca34482",
+      "groupId": "",
+      "name": "Anbu GCP",
+      "roleName": " Api Developer ",
+      "userName": "Anbu_GCP",
+      "userId": "8326e5a3-4b65-4083-b839-b20ceb8fae01"
+    }
+  ],
+  "createdBy": "00000000-0000-0000-0000-000000900002",
+  "articulationScore": "5.0",
+  "domain": {
+    "name": "Physical data graph",
+    "id": "75b837fe-247b-4597-9526-0102de17ad4e",
+    "url": "http://datanomist.in:4400/domain/75b837fe-247b-4597-9526-0102de17ad4e"
+  },
+  "name": "user table",
+  "ratingsCount": "0",
+  "createdByFullName": "Admin Istrator",
+  "avgRating": "0.0",
+  "attributes": [
+    {
+      "name": "Description",
+      "id": "12581bd5-687d-45ca-8f5c-2df69cf242f2",
+      "value": "user tables will cover the most important standard Tables in SAP storing all the data"
+    },
+    {
+      "name": "Shoppable",
+      "value": "false"
+    },
+    {
+      "name": "searchable",
+      "value": "false"
+    }
+  ],
+  "id": "7c8226ed-6781-4de4-8345-db7467d1bd52",
+  "relations": {
+    "sources": [
+      {
+        "role": "contains",
+        "typeId": "00000000-0000-0000-0000-000000007043",
+        "id": "bf0f77f1-84a9-4bb8-8734-900d93989387",
+        "source": {
+          "displayName": "view schema",
+          "name": "view schema",
+          "id": "79033d23-1bbf-4059-a5ef-ed765ffc5b1f",
+          "type": "Schema"
+        }
+      }
+    ],
+    "targets": [
+      {
+        "coRole": "contains",
+        "typeId": "7d6f9686-061e-4feb-b3fc-25403232f65f",
+        "id": "d546dc01-158c-47aa-bee0-17b766ae682c",
+        "target": {
+          "displayName": "netflix_titles.csv > country",
+          "name": "netflix_titles.csv > country",
+          "id": "9f6d8c58-0161-494e-8145-9d99eba298aa",
+          "type": "Column"
+        }
+      }
+    ]
+  },
+  "status": {
+    "name": "Candidate",
+    "id": "00000000-0000-0000-0000-000000005008"
+  }
+}
